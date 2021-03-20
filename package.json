@@ -2,7 +2,7 @@
   "name": "graphql-react-event-booking",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -14,6 +14,8 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
     "nodemon": "^1.18.7"
   }
 }
